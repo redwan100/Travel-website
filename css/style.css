@@ -572,3 +572,44 @@ input{
 .subscribe_input::placeholder{
     color: var(--text-color);
 }
+
+
+/* ========= Sponsor========= */ 
+
+.sponsor_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(110px,1fr));
+    row-gap: 3.5rem;
+    justify-content: center;
+}
+.sponsor_img{
+    width: 90px;
+    filter: invert(.5);
+}
+
+/* ========= Footer========= */ 
+.footer_container{
+    row-gap: 5rem;
+}
+
+.footer_content{
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    row-gap: 2rem;
+}
+
+.footer_title,
+.footer_subtitle{
+    font-size: var(--h3-font-size);
+}
+.footer_title{
+    margin-bottom: var(--mb-0-5);
+}
+.footer_description{
+    margin-bottom: var(--mb-2);
+}
+
+.footer_social{
+   font-size: 1.25rem; 
+   color: var(--title-color);
+   margin-right: var(--mb-1);
+}
